@@ -1,0 +1,1 @@
+networksetup -listallhardwareports | sed -n '8p' | cut -c 18-35
